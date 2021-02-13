@@ -1,11 +1,5 @@
-name: Deploy
-on:
-  push:
-    branches:
-      - source
-    tags:
-      - "!*"
-
+name: GithubActoinsTest
+on: [push]
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
